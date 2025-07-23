@@ -1,0 +1,111 @@
+*{
+    box-sizing: content-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.logo{
+    width: 135px;
+}
+/* Nav ber Design Start */
+.nav-ber{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.nav-link li{
+    list-style: none;
+}
+.nav-link li a{
+    text-decoration: none;
+    /* color:rgb(37, 36, 50); */
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.nav-link li a:hover{
+    cursor: pointer;
+    color:rgb(37, 36, 50);
+}
+.nav-link-S, .nav-link-A{
+    color: rgb(137, 135, 161);
+}
+.nav-link-C, .nav-link-H{
+    color:rgb(37, 36, 50);
+}
+.nav-link{
+    width: 415px;
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+/* Banner Design Start */
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    
+}
+.banner-img img{
+    display: block;
+}
+.banner-content h1{
+     font-family: "Noto Serif", serif;
+     font-weight: 700;
+     font-size: 65px;
+     line-height: 89px;
+     color: rgb(0, 0, 0);
+}
+.banner-content h1 span{
+    color: rgb(233, 90, 8);
+}
+.banner-content p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* Responsive media query Start*/
+
+@media (max-width:768px){
+      .nav-link-A,
+      .nav-link-H, 
+      .nav-link-S{
+      display: none;
+     }
+     .nav-ber{
+        width: 365px;
+        justify-content: space-between;
+        margin: 50px 16.18px 28px 16px;
+     }
+     .banner{
+        flex-direction: column-reverse;
+     }
+     .banner-img img{
+        width: 100%;
+     }
+     .banner-content{
+        margin-top: 28px;
+        margin-left: 16px;
+     }
+     .banner-content h1{
+        font-size: 24px;
+       font-weight: 700;
+       line-height: 33px;
+     }
+     .banner-content p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        margin-top: 13px;
+     }
+}
