@@ -73,6 +73,76 @@
     line-height: 27px;
     color: rgba(0, 0, 0, 0.5);
 }
+/* Main Design Start */
+
+
+.plants h1{
+     font-family: Noto Serif;
+     font-size: 50px;
+     font-weight: 700;
+     line-height: 68px;
+     letter-spacing: 0%;
+     text-align: center;
+}
+.plants h1 span{
+   color:rgb(233, 90, 8);
+}
+.plants p{
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+    width: 888px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Card btn */
+.btn{
+    background-color:rgb(233, 90, 8) ;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 0px 15px 0px;
+    border: none;
+    width: 270px;
+    margin-top: 12px;
+}
+.card img{
+    display: block;
+    width: 100%;
+}
+/* Card */
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 49px;
+    column-gap: 20px;
+    row-gap: 30px;
+}
+.card-content{
+    text-align: center;
+    width: 270px;
+    margin-top: 30px;
+}
+.card-content h3{
+    color: rgb(17, 17, 17);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 150%;
+}
+.card-content h4{
+    color: rgb(17, 17, 17);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
 
 /* Responsive media query Start*/
 
@@ -107,5 +177,33 @@
         font-weight: 400;
         line-height: 17px;
         margin-top: 13px;
+     }
+     /* Plants */
+     .plants h1{
+        font-size: 24px;
+     }
+     .plants p{
+        font-size: 14px;
+        width: 100%;
+        margin: auto;
+     }
+
+     /* Card*/
+     .card-container{
+        grid-template-columns: repeat(2,1fr);
+        margin: 14px;
+     }
+     .card-content{
+        width: 100%;
+     }
+     .btn{
+        width: 100%;
+        font-size: 16px;
+     }
+     .card-content h3{
+        font-size: 16px;
+     }
+     .card-content h4{
+        font-size: 16px;
      }
 }
