@@ -338,7 +338,6 @@
     font-family: Inter;
     font-size: 16px;
     font-weight: 600;
-    line-height: 19px;
 }
 /* Footer Design */
 .footer{
@@ -507,14 +506,14 @@
      }
      /* Join Responsive */
      .join-content input{
-        width: 218px;
+        width: 210px;
         font-size: 16px;
-        padding: 10px;
+        padding: 8px;
      }
      .btn-1{
-        width: 103px;
+        width: 100px;
         font-size: 16px;
-        padding: 10px;
+        padding: 8px;
      }
      .join-content h1{
         font-size: 20px;
