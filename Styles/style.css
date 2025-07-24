@@ -3,6 +3,9 @@
     margin: 0px;
     padding: 0px;
 }
+.bg-color{
+    background-color:#f5f8ff;
+}
 
 .container{
     max-width: 1140px;
@@ -253,11 +256,13 @@
     background-image: url(../assets/deal-bloom.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .ana-plants{
     background-image: url(../assets/deal-ana.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .bloom-plants p, .ana-plants p{
     color: rgb(255, 255, 255);
@@ -277,8 +282,9 @@
     background: url(../assets/deal-zabo.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     color: white;
-    font-family: Inter;
+    font-family: Noto Serif;
     font-size: 24px;
     font-weight: 700;   
 }
@@ -288,6 +294,54 @@
     font-weight: 600;
     text-decoration-line: underline;
 }
+
+/* Join Section */
+.join-section{
+    width: 100%;
+    /* margin-bottom: 100px; */
+    background-image: url(../assets/news-letter-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.join-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 199px;
+    padding-bottom: 193px;
+    text-align: center;
+    
+}
+.join-content h1{
+     color: rgb(255, 255, 255);
+     font-family: Noto Serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.join-content input{
+    width: 644px;
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.btn-1{
+    padding: 20px;
+    width:186px;
+    margin-left: -5px;
+    background-color: rgb(233, 90, 8);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+}
+/* Footer Design */
 
 
 /* Responsive media query Start*/
@@ -397,5 +451,26 @@
      .zabo-plants{
         width: 361px;
         height: 206px;
+        font-size: 16px;
      }
+     /* Join Responsive */
+     .join-content input{
+        width: 218px;
+        font-size: 16px;
+        padding: 10px;
+     }
+     .btn-1{
+        width: 103px;
+        font-size: 16px;
+        padding: 10px;
+     }
+     .join-content h1{
+        font-size: 20px;
+     }
+     .join-section{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+     }
+
 }
