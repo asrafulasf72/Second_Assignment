@@ -55,6 +55,10 @@
 }
 .banner-img img{
     display: block;
+    width: 100%;
+}
+.banner-content{
+    width: 570px;
 }
 .banner-content h1{
      font-family: "Noto Serif", serif;
@@ -142,7 +146,80 @@
     font-weight: 500;
     line-height: 150%;
 }
+/* Plants Lover Design Start */
+.plants-lover{
+    display: flex;
+    gap: 60px;
+    margin-top: 200px;
+    /* border: 2px solid tomato; */
+}
+.plants-lover-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 540px;
+    
+}
+.plants-lover-content ul h1{
+    color: rgb(0, 0, 0);
+    font-family: Noto Serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 68px
+}
+.plants-lover-content ul li{
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.list-content{
+    margin: 20px 5px;
+}
+.store{
+    width: 100%;
+    display: block;
 
+}
+.plants-lover-img{
+   position: relative;
+}
+.badge{
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    left: 370px;
+    top: -125px;
+    background: transparent;
+   
+    
+}
+/* Deals-Section" */
+.Deals-Section{
+    width: 100%;
+    margin-top: 133.88px;
+}
+.Deals-Section span{
+   color: rgb(233, 90, 8);
+}
+.Deals-Section h1{
+  font-family: Noto Serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 68px;
+  text-align: center;
+}
+.Deals-Section p{
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    width: 888px;
+    margin: auto;
+}
 
 /* Responsive media query Start*/
 
@@ -153,7 +230,7 @@
       display: none;
      }
      .nav-ber{
-        width: 365px;
+        width: 100%;
         justify-content: space-between;
         margin: 50px 16.18px 28px 16px;
      }
@@ -166,17 +243,13 @@
      .banner-content{
         margin-top: 28px;
         margin-left: 16px;
+        width: 98%;
      }
      .banner-content h1{
         font-size: 24px;
-       font-weight: 700;
-       line-height: 33px;
      }
      .banner-content p{
         font-size: 14px;
-        font-weight: 400;
-        line-height: 17px;
-        margin-top: 13px;
      }
      /* Plants */
      .plants h1{
@@ -205,5 +278,41 @@
      }
      .card-content h4{
         font-size: 16px;
+     }
+
+     /* Store Img */
+     .plants-lover{
+        flex-direction: column;
+        margin:10px 10px;
+     }
+     .plants-lover-content{
+        width: 361px;
+        margin-left: 10px;
+        margin-top: 0;
+     }
+     .plants-lover-content ul h1{
+        font-size: 24px;
+     }
+    .plants-lover-content ul li{
+        font-size: 14px;
+        
+     }
+     .badge{
+        display: none;
+     }
+     .store{
+        width: 100%;
+     }
+     /* Deals-Section */
+     .Deals-Section{
+        margin-top: 0;
+     }
+     .Deals-Section h1{
+        font-size: 24px;
+     }
+     .Deals-Section p{
+        font-size: 14px;
+        width: 90%;
+        margin: auto;
      }
 }
