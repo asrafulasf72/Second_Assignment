@@ -81,7 +81,6 @@
 }
 /* Main Design Start */
 
-
 .plants h1{
      font-family: Noto Serif;
      font-size: 50px;
@@ -226,7 +225,7 @@
 
 /* Deals-banner */
 .Deals-banner{
-    margin-top: 120px;
+    margin-top: 120px; 
     margin-bottom: 120px;
 }
 .Deals-img-container{
@@ -395,12 +394,16 @@
       display: none;
      }
      .nav-ber{
-        width: 100%;
+        max-width:361px ;
         justify-content: space-between;
-        margin: 50px 16.18px 28px 16px;
+        /* margin: 50px 16.18px 28px 16px; */
+        /* padding-left: 10px; */
+        
+        
      }
      .banner{
         flex-direction: column-reverse;
+        margin-bottom: 60px;
      }
      .banner-img img{
         width: 100%;
@@ -417,8 +420,12 @@
         font-size: 14px;
      }
      /* Plants */
+     .plants-lover{
+        gap: 10px;
+     }
      .plants h1{
         font-size: 24px;
+        padding: 10px;
      }
      .plants p{
         font-size: 14px;
@@ -485,9 +492,12 @@
      .Deals-banner{
         /* margin: 46px 20px 50px 20px; */
         justify-items: center;
+        margin-top: 60px;
      }
      .Deals-img-container{
         flex-direction: column;
+        padding: 0px 20px 0px 20px;
+        
         gap: 10px;
      }
      .zabo-plants{
