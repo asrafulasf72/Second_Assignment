@@ -64,7 +64,6 @@
      font-family: "Noto Serif", serif;
      font-weight: 700;
      font-size: 65px;
-     line-height: 89px;
      color: rgb(0, 0, 0);
 }
 .banner-content h1 span{
@@ -219,7 +218,77 @@
     text-align: center;
     width: 888px;
     margin: auto;
+    margin-top: 16px;
 }
+
+/* Deals-banner */
+.Deals-banner{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.Deals-img-container{
+    display: flex;
+    gap: 28.78px;
+}
+.plants-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bloom-plants, .ana-plants{
+    width: 366.22px;
+    height: 206px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Noto Serif;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.bloom-plants{
+    background-image: url(../assets/deal-bloom.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ana-plants{
+    background-image: url(../assets/deal-ana.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bloom-plants p, .ana-plants p{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration-line: underline;
+}
+.zabo-plants{
+    width: 753px;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    background: url(../assets/deal-zabo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;   
+}
+.zabo-plants p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration-line: underline;
+}
+
 
 /* Responsive media query Start*/
 
@@ -314,5 +383,19 @@
         font-size: 14px;
         width: 90%;
         margin: auto;
+     }
+
+     /* Plants Section */
+     .Deals-banner{
+        /* margin: 46px 20px 50px 20px; */
+        justify-items: center;
+     }
+     .Deals-img-container{
+        flex-direction: column;
+        gap: 10px;
+     }
+     .zabo-plants{
+        width: 361px;
+        height: 206px;
      }
 }
