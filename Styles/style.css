@@ -381,6 +381,10 @@
     display: flex;
     gap: 22px;
     align-items:start;
+    justify-content: flex-end;
+}
+.twitter-icon{
+    margin-top: 8px;
 }
 
 
